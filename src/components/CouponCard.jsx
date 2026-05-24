@@ -60,7 +60,7 @@ function CouponCard() {
                 className="transition-all duration-200"
               >
                 <div className="flex justify-between items-center mt-4 p-3 border border-[#E5E7EB] rounded-sm cursor-pointer">
-                  <div className="w-65 flex items-center gap-2">
+                  <div className="w-50 lg:w-65 flex md:items-center flex-col md:flex-row gap-2">
                     <span className="text-sm font-bold leading-5 text-[#111827]">
                       {coupon.code}
                     </span>

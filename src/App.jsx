@@ -18,7 +18,7 @@ function App() {
 
         <div className="lg:grid grid-cols-12 gap-16">
           {/* Billing Form  */}
-          <div className="col-span-7 bg-[#FFFFFF] px-5 pt-4 rounded-[10px] lg:w-169.75 lg:h-190.75 mb-4 lg:mb-0">
+          <div className="col-span-7 bg-[#FFFFFF] px-2 md:px-5 pt-4 rounded-[10px] lg:w-169.75 lg:h-190.75 mb-4 lg:mb-0">
             <BillingForm />
           </div>
 

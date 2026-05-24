@@ -3,7 +3,7 @@ import Wallet from "./Wallet";
 
 function Payment() {
   return (
-    <div className="w-full  bg-[#FFFFFF] flex flex-col gap-4 p-8 pt-4 border border-[#E5E7EB] rounded-[10px]">
+    <div className="w-full  bg-[#FFFFFF] flex flex-col gap-4 p-4 md:p-8 pt-4 border border-[#E5E7EB] rounded-[10px]">
       {/* wallet & coupon */}
       <div className="flex flex-col gap-3 pt-3">
         <Wallet />
