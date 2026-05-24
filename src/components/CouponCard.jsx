@@ -16,14 +16,14 @@ function CouponCard() {
     },
   ];
 
-  const [showCoupons, setShowCoupons] = useState(false);
+  const [showCoupons, setShowCoupons] = useState(true);
 
   const [selectedCoupon, setSelectedCoupon] = useState(null);
 
   return (
     <div className="border border-[#E5E7EB] rounded-sm  shadow-[0px_1px_2px_-1px_#0000001A,0px_1px_3px_0px_#0000001A]">
       <div
-        className="flex justify-between items-center p-4 border-b border-[#E5E7EB]"
+        className="flex justify-between items-center p-4 border-b border-[#E5E7EB] cursor-pointer"
         onClick={() => setShowCoupons((prev) => !prev)}
       >
         <div className="flex items-center gap-3">
