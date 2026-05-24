@@ -41,16 +41,16 @@ src/
 
 ### 💻 Desktop View
 
-![Desktop View](assets/full-screen.png)
+![Desktop View](./src/assets/full-screen.png)
 
 ---
 
 ### 📱 Tablet View
 
-![Tablet View](assets/tablet-screen.jpeg)
+![Tablet View](./src/assets/tablet-screen.jpeg)
 
 ---
 
 ### 📱 Mobile View
 
-![Mobile View](assets/mobile-screen.jpeg)
+![Mobile View](./src/assets/mobile-screen.jpeg)
