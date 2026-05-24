@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+}
+
+
+@layer components {
+  .custom-radio {
+    @apply appearance-none
+    w-5 h-5
+    rounded-full
+    border-2 border-blue-600
+    bg-white
+    relative
+    cursor-pointer;
+  }
+
+  .custom-radio:checked {
+    @apply border-blue-600 bg-blue-600;
+  }
+
+  .custom-radio::after {
+    content: "";
+    @apply absolute
+    w-2.5 h-2.5
+    rounded-full
+    bg-white
+    top-1/2 left-1/2
+    -translate-x-1/2
+    -translate-y-1/2
+    scale-0;
+  }
+
+  .custom-radio:checked::after {
+    @apply scale-100;
+  }
+}
