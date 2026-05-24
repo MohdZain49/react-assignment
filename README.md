@@ -2,6 +2,8 @@
 
 A pixel-perfect React implementation based on the provided Figma design for the Frontend Developer Intern assignment.
 
+## Live link
+https://react-assignment-tau-cyan.vercel.app/
 
 ## 📌 Features
 
@@ -12,6 +14,7 @@ A pixel-perfect React implementation based on the provided Figma design for the 
 - Clean and scalable folder structure
 - Tailwind CSS styling
 - React functional components with hooks
+- Deploy on Vercel
 
 ---
 
