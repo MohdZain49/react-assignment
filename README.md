@@ -54,3 +54,9 @@ src/
 ### 📱 Mobile View
 
 ![Mobile View](src/assets/mobile-screen.jpeg)
+
+
+## Contact details
+
+mohammedzain4099@gmail.com
+7017072533
